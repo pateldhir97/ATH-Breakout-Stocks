@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+yfinance
+pandas
+smtplib
+ssl
+os
+datetime
+email.message
