@@ -20,6 +20,12 @@ This Python-based project automatically identifies **all-time high (ATH) breakou
 - **AWS S3** (for storing dependencies)
 - **AWS CloudWatch** (for logging)
 
+## 👥 User Configuration
+To use this project, users must create three text files containing email credentials:
+- `EMAIL_PASSWORD.txt` (contains sender's email password)
+- `EMAIL_SENDER.txt` (contains sender's email address)
+- `RECIPIENT.txt` (contains recipient's email address)
+
 ## 🔍 How It Works
 1. The script scrapes the latest **NIFTY 500 stock symbols** from Wikipedia.
 2. It downloads **historical stock prices** using the `yfinance` library.
