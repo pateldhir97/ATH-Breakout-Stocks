@@ -125,7 +125,7 @@ pip install -r requirements.txt
 jupyter notebook test_breakout_alert.ipynb
 ```
 
-The notebook lets you test the scraper, run a single-ticker ATH check, preview the email output, and send a real alert — all without touching Lambda.
+The notebook lets you test the scraper, run a single-ticker ATH check, preview the email output, and send a real alert all without touching Lambda.
 
 ---
 
