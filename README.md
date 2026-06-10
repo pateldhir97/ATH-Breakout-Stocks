@@ -57,17 +57,7 @@ AWS Lambda (Docker container via ECR)
 Below is an example of the email alert generated when breakout stocks are detected:
 
 ```
-Subject: Nifty 500 All-Time High Breakout Stocks — May 2025
-
-List of All Time High Stocks. Keep Growing!! 🚀🚀
-
-Company Name              | Ticker    | Industry             | Current Price | Previous ATH
---------------------------|-----------|----------------------|---------------|-------------
-Reliance Industries       | RELIANCE  | Energy               | ₹2,987.50     | ₹2,950.00
-HDFC Bank                 | HDFCBANK  | Financial Services   | ₹1,743.20     | ₹1,720.00
-Infosys                   | INFY      | Information Tech     | ₹1,892.00     | ₹1,875.00
-
-Note: Data could not be retrieved for the following tickers: TICKER1, TICKER2
+![Sample Email Output](assets/sample_output.png)
 ```
 
 > Actual results vary by run date. Output above is illustrative.
