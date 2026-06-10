@@ -82,7 +82,7 @@ AWS Lambda (Docker container via ECR)
 
 ### Environment Variables
 
-Credentials are loaded from Lambda environment variables — nothing is stored in code or files.
+Credentials are loaded from Lambda environment variables nothing is stored in code or files.
 
 Set these under **AWS Lambda → Configuration → Environment Variables**:
 
@@ -131,5 +131,5 @@ The notebook lets you test the scraper, run a single-ticker ATH check, preview t
 
 ## Author
 
-**Dhir Patel** — Data Analyst  
+**Dhir Patel** - Data Analyst  
 [LinkedIn](https://www.linkedin.com/in/dhir-patel14/) · [GitHub](https://github.com/pateldhir97/)
