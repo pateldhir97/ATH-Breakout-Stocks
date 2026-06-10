@@ -1,9 +1,0 @@
-pandas
-yfinance
-requests
-beautifulsoup4
-os
-email
-ssl
-smtplib
-datetime
