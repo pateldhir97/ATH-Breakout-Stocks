@@ -1,11 +1,6 @@
 # Stock Market Breakout Alert System
 
-Automated pipeline that scans all **NIFTY 500 stocks** for **all-time high (ATH) breakouts** and delivers a formatted email alert — fully serverless on AWS.
-
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-FF9900?logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-ECR-2496ED?logo=docker&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green)
+Automated pipeline that scans all **NIFTY 500 stocks** for **all-time high (ATH) breakouts** and delivers a formatted email alert fully serverless on AWS.
 
 ---
 
