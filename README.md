@@ -32,9 +32,9 @@ AWS Lambda (Docker container via ECR)
 - Identifies breakout stocks where the current closing price exceeds the previous all-time high
 - Sends a formatted HTML email report listing all breakout stocks with company name, industry, current price, and previous ATH
 - Fully containerized with Docker and deployed to AWS ECR
-- Scheduled via AWS EventBridge — runs automatically without manual intervention
+- Scheduled via AWS EventBridge runs automatically without manual intervention
 - Execution logs and errors captured in AWS CloudWatch
-- Credentials managed securely via Lambda environment variables — no secrets in code
+- Credentials managed securely via Lambda environment variables no secrets in code
 
 ---
 
@@ -78,7 +78,7 @@ Note: Data could not be retrieved for the following tickers: TICKER1, TICKER2
 
 ```
 ├── src/
-│   ├── lambda_function.py    # Core pipeline — scraper, ATH detector, email sender, Lambda handler
+│   ├── lambda_function.py    # Core pipeline scraper, ATH detector, email sender, Lambda handler
 ├── test_breakout_alert.ipynb # Local test notebook for running and validating the pipeline
 ├── Dockerfile                # Container configuration for Lambda deployment
 ├── requirements.txt          # Python dependencies
