@@ -57,7 +57,7 @@ AWS Lambda (Docker container via ECR)
 Below is an example of the email alert generated when breakout stocks are detected:
 
 ```
-![Sample Email Output](assets/sample_output.png)
+![Sample Email Output](sample_output.png)
 ```
 
 > Actual results vary by run date. Output above is illustrative.
