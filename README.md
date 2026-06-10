@@ -54,7 +54,7 @@ AWS Lambda (Docker container via ECR)
 
 ## Sample Output
 
-![Sample Email Output](assets/sample_output.png)
+![Sample Email Output](sample_output.png)
 
 ---
 
